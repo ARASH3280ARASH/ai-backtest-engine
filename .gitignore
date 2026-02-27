@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large)
+data/raw/*.csv
+data/processed/**/*.csv
+data/cache/
+*.parquet
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+*.h5
+*.keras
+
+# Results (regeneratable)
+results/
+results_backup*/
+reports/*.html
+reports/plots/*.png
+
+# Environment
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Secrets
+*.pem
+*.key
+credentials.*
+.local/
